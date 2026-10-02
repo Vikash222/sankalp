@@ -1,0 +1,20 @@
+# ==============================================================================
+# Sankalp Android Release Signing Key Properties
+# ==============================================================================
+# Copy this file to `key.properties` (same directory: mobile/android/key.properties)
+# and fill in your actual production keystore credentials.
+#
+# IMPORTANT:
+# 1. NEVER commit `key.properties` or `*.keystore` / `*.jks` into source control.
+# 2. Both `key.properties` and `*.keystore` are already included in .gitignore.
+#
+# HOW TO GENERATE A PRODUCTION UPLOAD KEYSTORE:
+# Run the following terminal command:
+# keytool -genkey -v -keystore ./upload-keystore.jks -keyalg RSA \
+#         -keysize 4096 -validity 10000 -alias sankalp_upload
+# ------------------------------------------------------------------------------
+
+keyAlias=sankalp_upload
+keyPassword=YourSecureKeyPasswordHere
+storeFile=/Users/vikashkumar/Downloads/Sankalp/mobile/android/upload-keystore.jks
+storePassword=YourSecureStorePasswordHere

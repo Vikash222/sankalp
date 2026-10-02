@@ -1,0 +1,58 @@
+{
+  "@@locale": "hi",
+  "appName": "संकल्प",
+  "appTagline": "अनुशासित आदत परिवर्तन और डिजिटल डिटॉक्स मंच",
+
+  "navToday": "आज",
+  "navChallenges": "चुनौतियाँ",
+  "navTracker": "ट्रैकर",
+  "navDetox": "फोकस और डिटॉक्स",
+  "navProfile": "प्रोफ़ाइल",
+
+  "todayChecklistTitle": "आज का अनुशासन",
+  "streakBanner": "{count} दिन की निरंतरता",
+  "streakFreezesActive": "{count} स्ट्रीक फ़्रीज़ सक्रिय",
+  "dailyXpEarned": "आज {count} XP अर्जित",
+
+  "challenge21Day": "21-दिवसीय आदत निर्माता",
+  "challenge90Day": "90-दिवसीय संपूर्ण जीवन परिवर्तन",
+  "challengeSummerArc": "समर आर्क अनुशासन",
+  "challengeWinterArc": "विंटर आर्क कठोर तपस्या",
+
+  "trackerLiveTitle": "लाइव ट्रैकिंग",
+  "startWorkout": "व्यायाम सत्र शुरू करें",
+  "stopWorkout": "रोकने हेतु दबाए रखें",
+  "distanceKm": "{distance} किमी",
+  "avgPace": "औसत गति",
+  "duration": "अवधि",
+  "caloriesKcal": "{calories} किलोकैलोरी",
+  "splitsHeader": "किलोमीटर विभाजन",
+
+  "detoxDeepWorkTitle": "डीप वर्क एकाग्रता टाइमर",
+  "detoxScreenTimeBudget": "दैनिक स्क्रीन समय सीमा",
+  "detoxDistractionsBlocked": "{count} भटकाव अवरुद्ध",
+  "detoxSilenceNotifications": "सूचनाएं मूक करें (DND)",
+  "detoxStartSession": "डीप वर्क सत्र प्रारंभ करें",
+  "detoxEndEarly": "सत्र समय से पहले समाप्त करें",
+  "detoxUsagePermissionRequired": "ऐप ब्लॉकर हेतु उपयोग अनुमति आवश्यक",
+
+  "gamificationBadgesTitle": "अनुशासन पदक",
+  "gamificationLevelsTitle": "स्तर प्रगति",
+  "gamificationLeaguesTitle": "अनुशासन लीग",
+  "gamificationCurrentLevel": "स्तर {level} • {title}",
+
+  "notificationSettingsTitle": "सूचना सेटिंग्स",
+  "quietHoursTitle": "शांति का समय (विश्राम मोड)",
+  "frequencyCapTitle": "दैनिक सूचना सीमा",
+
+  "themeDayMode": "डे मोड (पीला और श्वेत)",
+  "themeDarkMode": "डार्क मोड",
+  "themeNightMode": "नाइट मोड (पूर्ण AMOLED)",
+  "themeCustomMode": "कस्टम रंग मोड",
+
+  "btnDone": "संपन्न",
+  "btnCancel": "रद्द करें",
+  "btnSave": "सहेजें",
+  "btnShare": "साझा करें",
+  "btnExportGpx": "GPX निर्यात करें"
+}

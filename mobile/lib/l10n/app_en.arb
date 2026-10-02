@@ -1,0 +1,94 @@
+{
+  "@@locale": "en",
+  "appName": "Sankalp",
+  "appTagline": "Disciplined habit transformation and digital detox platform",
+
+  "navToday": "Today",
+  "navChallenges": "Challenges",
+  "navTracker": "Tracker",
+  "navDetox": "Focus & Detox",
+  "navProfile": "Profile",
+
+  "todayChecklistTitle": "Today's Discipline",
+  "streakBanner": "{count} Day Streak",
+  "@streakBanner": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "streakFreezesActive": "{count} Freezes active",
+  "@streakFreezesActive": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "dailyXpEarned": "{count} XP gained today",
+  "@dailyXpEarned": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "challenge21Day": "21-Day Habit Builder",
+  "challenge90Day": "90-Day Transformation Overhaul",
+  "challengeSummerArc": "Summer Arc Regimen",
+  "challengeWinterArc": "Winter Arc Discipline",
+
+  "trackerLiveTitle": "Live Tracking",
+  "startWorkout": "Start Workout Session",
+  "stopWorkout": "Hold to Stop",
+  "distanceKm": "{distance} km",
+  "@distanceKm": {
+    "placeholders": {
+      "distance": { "type": "String" }
+    }
+  },
+  "avgPace": "Avg Pace",
+  "duration": "Duration",
+  "caloriesKcal": "{calories} kcal",
+  "@caloriesKcal": {
+    "placeholders": {
+      "calories": { "type": "int" }
+    }
+  },
+  "splitsHeader": "Kilometer Splits",
+
+  "detoxDeepWorkTitle": "Deep Work Focus Timer",
+  "detoxScreenTimeBudget": "Daily Screen Time Budget",
+  "detoxDistractionsBlocked": "{count} Distractions Blocked",
+  "@detoxDistractionsBlocked": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "detoxSilenceNotifications": "Silence Notifications (DND)",
+  "detoxStartSession": "Begin Deep Work Session",
+  "detoxEndEarly": "End Focus Session Early",
+  "detoxUsagePermissionRequired": "Usage Access Required for App Blocker",
+
+  "gamificationBadgesTitle": "Discipline Badges",
+  "gamificationLevelsTitle": "Level Progression",
+  "gamificationLeaguesTitle": "Discipline Leagues",
+  "gamificationCurrentLevel": "Level {level} • {title}",
+  "@gamificationCurrentLevel": {
+    "placeholders": {
+      "level": { "type": "int" },
+      "title": { "type": "String" }
+    }
+  },
+
+  "notificationSettingsTitle": "Notification Settings",
+  "quietHoursTitle": "Quiet Hours (Sleep Mode)",
+  "frequencyCapTitle": "Daily Frequency Cap",
+
+  "themeDayMode": "Day Mode (Yellow & White)",
+  "themeDarkMode": "Dark Mode",
+  "themeNightMode": "Night Mode (Pure AMOLED)",
+  "themeCustomMode": "Custom Accent Mode",
+
+  "btnDone": "Done",
+  "btnCancel": "Cancel",
+  "btnSave": "Save",
+  "btnShare": "Share",
+  "btnExportGpx": "Export GPX"
+}

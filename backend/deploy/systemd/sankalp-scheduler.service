@@ -1,0 +1,18 @@
+# ==============================================================================
+# Sankalp API - Systemd Service for Task Scheduler
+# ==============================================================================
+# Path: /etc/systemd/system/sankalp-scheduler.service
+# ==============================================================================
+
+[Unit]
+Description=Sankalp Laravel Task Scheduler Service
+After=network.target
+
+[Service]
+Type=oneshot
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/sankalp/backend
+ExecStart=/usr/bin/php /var/www/sankalp/backend/artisan schedule:run
+StandardOutput=journal
+StandardError=journal

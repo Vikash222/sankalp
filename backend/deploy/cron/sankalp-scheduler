@@ -1,0 +1,9 @@
+# ==============================================================================
+# Sankalp API - System Cron for Laravel Task Scheduler
+# ==============================================================================
+# Path: /etc/cron.d/sankalp-scheduler
+# Permissions: chmod 0644 /etc/cron.d/sankalp-scheduler
+# ==============================================================================
+
+# Run the Laravel scheduler every single minute under www-data user
+* * * * * www-data /usr/bin/php /var/www/sankalp/backend/artisan schedule:run >> /dev/null 2>&1
