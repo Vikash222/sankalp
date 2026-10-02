@@ -55,3 +55,12 @@ Route::get('/health', function () {
         'timestamp' => now()->toIso8601String(),
     ]);
 });
+
+Route::get('/privacy', function () {
+    $privacyFile = public_path('privacy.html');
+    if (file_exists($privacyFile)) {
+        return response()->file($privacyFile, ['Content-Type' => 'text/html; charset=utf-8']);
+    }
+    return redirect('https://github.com/Vikash222/sankalp/blob/main/PRIVACY_POLICY.md');
+});
+
