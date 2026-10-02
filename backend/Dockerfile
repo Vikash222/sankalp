@@ -1,7 +1,7 @@
 # ==============================================================================
 # Sankalp - Production Docker Image for 100% Free Cloud Hosting (Render / Koyeb / Railway)
 # ==============================================================================
-FROM php:8.3-cli-alpine
+FROM php:8.4-cli-alpine
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 

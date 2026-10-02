@@ -1,7 +1,7 @@
 # ==============================================================================
 # Sankalp - Root Production Docker Image for Render.com
 # ==============================================================================
-FROM php:8.3-cli-alpine
+FROM php:8.4-cli-alpine
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
