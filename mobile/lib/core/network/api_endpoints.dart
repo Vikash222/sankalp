@@ -1,7 +1,6 @@
 class ApiEndpoints {
-  // Base URL defaults to localhost for Android emulator / local testing.
-  // Can be overridden via --dart-define=API_BASE_URL=https://your-domain.com/api/v1
-  static const String defaultBaseUrl = 'http://10.0.2.2:8000/api/v1';
+  // Production live Render API endpoint
+  static const String defaultBaseUrl = 'https://sankalp-api-bs21.onrender.com/api/v1';
 
   // Auth
   static const String guestAuth = '/auth/guest';
