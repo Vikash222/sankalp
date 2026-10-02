@@ -1,11 +1,11 @@
 # ==============================================================================
-# Sankalp - Production Docker Image for 100% Free Cloud Hosting (Render / Koyeb / Railway)
+# Sankalp - Root Production Docker Image for Render.com
 # ==============================================================================
 FROM php:8.3-cli-alpine
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
-# Install system dependencies and required PHP extensions (including zip & mbstring)
+# Install system dependencies and required PHP extensions
 RUN apk add --no-cache \
     curl \
     git \
@@ -21,8 +21,8 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /app
 
-# Copy full application code first so autoloader targets (app/, database/) exist
-COPY . .
+# Copy backend application code into container workdir
+COPY backend/ .
 
 # Install dependencies (production-optimized with platform requirements ignored)
 RUN composer install \
@@ -39,7 +39,7 @@ RUN mkdir -p database storage/framework/cache storage/framework/sessions storage
     && chmod -R 777 storage bootstrap/cache database
 
 # Entrypoint script
-COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+COPY backend/docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
 EXPOSE 8000
