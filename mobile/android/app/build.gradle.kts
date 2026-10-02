@@ -24,7 +24,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.arclife.arclife"
+        applicationId = "one.Sankalp"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -36,7 +36,11 @@ android {
             if (keystorePropertiesFile.exists()) {
                 keyAlias = keystoreProperties.getProperty("keyAlias")
                 keyPassword = keystoreProperties.getProperty("keyPassword")
-                storeFile = keystoreProperties.getProperty("storeFile")?.let { file(it) }
+                val path = keystoreProperties.getProperty("storeFile")
+                storeFile = if (path != null) {
+                    val candidate = file(path)
+                    if (candidate.exists()) candidate else rootProject.file(path)
+                } else null
                 storePassword = keystoreProperties.getProperty("storePassword")
             }
         }
